@@ -72,8 +72,8 @@ FONT_SIZE_LEGEND = 30
 
 plt.rcParams['patch.force_edgecolor'] = True
 
-taihu_color = (255/255, 127/255, 14/255)  # #ff7f0e 橙色
-ocean_color = (31/255, 119/255, 180/255)  # #1f77b4 蓝色
+taihu_color = (255/255, 127/255, 14/255) 
+ocean_color = (31/255, 119/255, 180/255)
 
 boxprops = {
     'linewidth': 1.5, 
@@ -81,7 +81,7 @@ boxprops = {
 }
 
 sns.boxplot(x='pos', y='value', hue='group', data=df,
-            palette={'New': taihu_color, 'Old': ocean_color},  # 使用RGB元组代替十六进制
+            palette={'New': taihu_color, 'Old': ocean_color}, 
             width=0.5,
             fliersize=3, 
             linewidth=1,
@@ -89,7 +89,7 @@ sns.boxplot(x='pos', y='value', hue='group', data=df,
             whiskerprops={'linewidth': 1.5},
             medianprops={'color': 'black', 'linewidth': 2},
             showfliers=False,
-            saturation=1.0  # 设置饱和度为100%，不降低颜色饱和度
+            saturation=1.0
             )
 
 plt.ylabel('Normalized Value', fontsize=FONT_SIZE_AXIS_LABEL, fontweight='bold')
