@@ -25,7 +25,7 @@ This section contains all the plotting scripts and data for the application I/O 
 - IO comparison HPC AI.py presents I/O performance comparison between HPC workloads and AI workloads on OceanLight.
 - data.csv contains the processed data required for plotting the figure.
 ### 2.4 analysis_sys/*.py
-his section contains all the plotting scripts and data for the storage system workload section of the experiments. We provide the processed secondary data, and the charts can be reproduced simply by running the scripts. All necessary data are either embedded within the Python scripts or included as standalone files in the corresponding directory.
+This section contains all the plotting scripts and data for the storage system workload section of the experiments. We provide the processed secondary data, and the charts can be reproduced simply by running the scripts. All necessary data are either embedded within the Python scripts or included as standalone files in the corresponding directory.
 - OST CDF.py presents a CDF of OST utilization on two supercomputers.
 - OST cumulative volume.py presents the cumulative I/O volume on OceanLight.
 - OST burst rw.py presents the duration and I/O volume of burst on OceanLight.
@@ -37,4 +37,8 @@ his section contains all the plotting scripts and data for the storage system wo
 - IO interference_data.csv ontains the processed data required for plotting the figure.
 - MDS CDF.py presents the CDF of MDS utilization on TaihuLight and OceanLight.
 - MDS operation.py presents the Major metadata operations and operation numbers on TaihuLight and OceanLight.
+### 2.5 raw data process/*.py
+This section contains scripts for processing the original JSON data. The parallel parameter indicates the parallel acceleration of the processing program.
+
+
 
