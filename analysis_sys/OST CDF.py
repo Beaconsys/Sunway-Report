@@ -3,7 +3,7 @@ import matplotlib as mpl
 
 mpl.rcParams['font.family'] = 'Arial'
 
-x = [0.5, 1, 5, 20, 50, 100]  # 加上 50%
+x = [0.5, 1, 5, 20, 50, 100]
 taihu = [0, 61, 77, 99, 99.5, 100]
 ocean = [0, 57, 84, 95, 98, 100]
 
