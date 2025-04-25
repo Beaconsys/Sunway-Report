@@ -1,9 +1,10 @@
 # Comparation
 ## 1 Getting Started Instructions
-This study presents a comprehensive analysis of workload characteristics and I/O behaviors across two generations of Sunway supercomputers (TaihuLight and OceanLight). Our study systematically compares the effectiveness and limitations of architectural upgrades, providing actionable insights for designing and optimizing next-generation supercomputers facing converged HPC-AI workloads, and offering solutions for job scheduling, resource management, and I/O system design. This project showcases our data processing and analysis scripts, as well as the data collected by Beacon, an open-source and lightweight collection tool.
+This study presents a comprehensive analysis of workload characteristics and I/O behaviors across two generations of Sunway supercomputers (TaihuLight and OceanLight). Our study systematically compares the effectiveness and limitations of architectural upgrades, providing actionable insights for designing and optimizing next-generation supercomputers facing converged HPC-AI workloads, and offering solutions for job scheduling, resource management, and I/O system design. This project showcases our data processing and analysis scripts, as well as the data collected by Beacon<sup>+</sup>, an open-source and lightweight collection tool.
 ## 2 Detailed Instructions
-### 2.1 Beacon and Dataset.
-Both TaihuLight and OceanLight have deployed Beacon to collect the multi-layer performance data, including computing nodes, forwarding nodes, storage nodes, and job-running information. We have no authority to open the access or provide a simulator to access the Beacon or all these data. However, Beacon's code and part of the collected data (The data is processed to hide the user's information) can be accessed through the link blew: https://github.com/Beaconsys/Beacon.
+### 2.1 Beacon<sup>+</sup> and Dataset.
+Both TaihuLight and OceanLight have deployed Beacon<sup>+</sup> to collect the multi-layer performance data, including computing nodes, forwarding nodes, storage nodes, and job-running information. We have no authority to open the access or provide a simulator to access the Beacon or all these data. However, Beacon's code and part of the collected data (The data is processed to hide the user's information) can be accessed through the link blew: https://github.com/Beaconsys/Beacon.
+### 2.2 job_characteristics
 
 
 compares architectural upgrades’ effectiveness.
