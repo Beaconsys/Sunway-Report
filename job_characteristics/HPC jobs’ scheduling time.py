@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 fixed_normal_values = [1.138, 1.332, 4.346, 7.952, 20.284, 30.642]
 fixed_abnormal_values = [3.272, 7.332, 9.657, 12.367, 25.024, 34.112]
 results_df = [r"$(10^0, 10^1]$", r"$(10^1, 10^2]$", r"$(10^2, 10^3]$",
-              r"$(10^3, 10^4]$", r"$(10^4, 10^5]$", r"$(10^5, 10^6)$"]   # 节点分组标签
+              r"$(10^3, 10^4]$", r"$(10^4, 10^5]$", r"$(10^5, 10^6)$"]
 scientific_labels = results_df
 
 fixed_df = pd.DataFrame({
