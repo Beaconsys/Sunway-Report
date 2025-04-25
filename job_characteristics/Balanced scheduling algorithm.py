@@ -10,7 +10,7 @@ cursor = conn.cursor()
 query = """
 SELECT jobid, submittime, nodenum, runtime 
 FROM Taihu_job_info
-WHERE queue = 'q_sw_share' AND DATE(submittime) = '2018-05-14'
+WHERE queue = 'q_1' AND DATE(submittime) = '20xx-xx-xx'
 ORDER BY submittime
 """
 cursor.execute(query)
