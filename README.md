@@ -1,4 +1,4 @@
-# Comparation
+# Job Characteristics and I/O Behavior on Sunway TaihuLight and Sunway OceanLight
 ## 1 Getting Started Instructions
 This study presents a comprehensive analysis of workload characteristics and I/O behaviors across two generations of Sunway supercomputers (TaihuLight and OceanLight). Our study systematically compares the effectiveness and limitations of architectural upgrades, providing actionable insights for designing and optimizing next-generation supercomputers facing converged HPC-AI workloads, and offering solutions for job scheduling, resource management, and I/O system design. This project showcases our data processing and analysis scripts, as well as the data collected by Beacon<sup>+</sup>, an open-source and lightweight collection tool.
 ## 2 Detailed Instructions
