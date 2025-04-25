@@ -2,13 +2,12 @@ import sqlite3
 import pandas as pd
 from datetime import datetime, timedelta
 
-# 连接 SQLite 数据库并提取作业
 conn = sqlite3.connect("../Sunway.db")
 cursor = conn.cursor()
 query = """
 SELECT jobid, submittime, nodenum, runtime 
 FROM Haiyang_job_info
-WHERE queue = 'q_sw_share' AND DATE(submittime) = '2023-05-01'
+WHERE queue = 'q_1' AND DATE(submittime) = '20xx-xx-xx'
 ORDER BY submittime
 """
 cursor.execute(query)
