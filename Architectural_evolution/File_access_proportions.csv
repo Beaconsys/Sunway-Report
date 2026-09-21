@@ -1,0 +1,5 @@
+file_count_range,taihulight_percent,oceanlight_percent
+0-16,82,11
+17-64,11,38
+65-256,2,5
+>256,3,43
