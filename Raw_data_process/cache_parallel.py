@@ -1,5 +1,5 @@
 import multiprocessing
-from cache import process_single_ip  # 假设原脚本保存为rpc.py
+from cache import process_single_ip 
 
 def main():
     target_ips = []
