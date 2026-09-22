@@ -61,7 +61,3 @@ def process_single_ip(target_ip):
         rpc_df = df[df['part'] == 'rpc'].copy()
         process_rpc(rpc_df, output_dir / f"{target_ip}.csv")
         print(f"Processed: {output_dir}\\{target_ip}.csv")
-
-# if __name__ == "__main__":
-#     target_ip = "20.0.6.71"
-#     process_single_ip(target_ip)

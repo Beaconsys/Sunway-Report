@@ -4,7 +4,7 @@ from pathlib import Path
 def diff_adjacent_rows(group):
     data_columns = group.columns.difference(['time', 'node'])
     diff_result = group[data_columns].astype(int).diff().iloc[1:]
-    diff_result['time'] = group['time'].iloc[1:]  # 保留 time 列
+    diff_result['time'] = group['time'].iloc[1:]
     return diff_result
 
 def process_mds(mds_df, out_path):
@@ -46,7 +46,7 @@ def is_ip_in_range(ip):
         return False
 
 def process_single_ip(target_mds):
-    base_path = Path(__file__).parent / "lustre-mds-1"  # 自动定位脚本所在目录
+    base_path = Path(__file__).parent / "lustre-mds-1" 
 
     for date_dir in base_path.glob("*/*/*"):
         rel_parts = date_dir.relative_to(base_path).parts
@@ -54,7 +54,7 @@ def process_single_ip(target_mds):
         if len(rel_parts) != 3:
             continue
 
-        year, month, day = rel_parts  # 正确解包
+        year, month, day = rel_parts
 
         json_path = date_dir / f"{target_mds}.json"
         if not json_path.exists():

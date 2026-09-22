@@ -1,6 +1,6 @@
 # parallel_rpc.py
 import multiprocessing
-from rpc import process_single_ip  # 假设原脚本保存为rpc.py
+from rpc import process_single_ip 
 
 def main():
     target_ips = []
@@ -8,7 +8,7 @@ def main():
     for third in range(0, 8):
         max_fourth = 99
         for fourth in range(0, max_fourth + 1):
-            ip = f"20.0.{third}.{fourth}"
+            ip = f"x.x.{third}.{fourth}"
             target_ips.append(ip)
 
     pool_size = multiprocessing.cpu_count() - 1 or 1

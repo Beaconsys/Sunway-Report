@@ -1,12 +1,12 @@
 import multiprocessing
-from mds import process_single_ip  # 假设原脚本保存为rpc.py
+from mds import process_single_ip 
 
 def main():
     target_ips = [
-        "20.0.10.1_0",
-        "20.0.10.2_1",
-        "20.0.10.3_2",
-        "20.0.10.4_3"
+        "x.x.x.x_0",
+        "x.x.x.x_1",
+        "x.x.x.x_2",
+        "x.x.x.x_3"
     ]
     pool_size = multiprocessing.cpu_count() - 1 or 1
     with multiprocessing.Pool(pool_size) as pool:
