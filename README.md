@@ -8,7 +8,7 @@ This study analyzes eight years of production data from the Sunway TaihuLight an
 
 ### 2.1 Beacon<sup>+</sup> and Dataset.
 
-Both TaihuLight and OceanLight have deployed Beacon<sup>+</sup> to collect the multi-layer performance data, including computing nodes, forwarding nodes, storage nodes, and job-running information. We have no authority to open the access or provide a simulator to access the Beacon or all these data. However, Beacon's code and part of the collected data (The data is processed to hide the user's information) can be accessed through the link blew: 
+Both TaihuLight and OceanLight have deployed Beacon<sup>+</sup> to collect the multi-layer performance data, including computing nodes, forwarding nodes, storage nodes, and job-running information. We have no authority to open the access or provide a simulator to access the Beacon or all these data. However, Beacon's code and part of the collected data (The data is processed to hide the user's information) can be accessed through the link below: 
 https://github.com/Beaconsys/Beacon.
 
 ### 2.2 Workload_characterization/
@@ -51,5 +51,5 @@ This directory contains reproducible figures for "Application-level I/O pitfalls
 - `Figure22_Write_Read_Bandwidth.py` reproduces Figure 22 from `GRIST_write.csv`, `GRIST_read.csv`, `CWRF_write.csv`, and `CWRF_read.csv`, comparing large-scale write and small-scale read bandwidth.
 - `Figure23_Read_Bandwidth_Scaling.py` reproduces Figure 23, comparing read bandwidth across four NetCDF/HDF5 access modes and process counts.
 
-### 2.6 raw data process/*.py
+### 2.6 Raw_data_process/*.py
 This section contains scripts for processing the original JSON data. The parallel parameter indicates the parallel acceleration of the processing program.
