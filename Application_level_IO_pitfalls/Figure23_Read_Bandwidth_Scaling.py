@@ -28,8 +28,8 @@ BAR_WIDTH = 0.15
 
 processes = [1, 2, 4, 8, 16]
 
-mode1 = [31.32, 45.62, 57.71, 74.36, 85.12]
-mode2 = [5.57, 11.26, 20.15, 23.45, 39.51]
+mode2 = [31.32, 45.62, 57.71, 74.36, 85.12]
+mode1 = [5.57, 11.26, 20.15, 23.45, 39.51]
 mode3 = [81.25, 117.49, 161.28, 272.81, 399.45]
 mode4 = [73.15, 115.27, 173.45, 281.84, 408.15]
 
@@ -47,14 +47,14 @@ x = np.arange(len(processes))
 
 fig, ax = plt.subplots(figsize=(12, 5))
 
-ax.bar(x - 1.5 * BAR_WIDTH, mode2,
+ax.bar(x - 1.5 * BAR_WIDTH, mode1,
        width=BAR_WIDTH,
        color=COLORS[0],
        edgecolor="black",
        linewidth=1.2,
        label=MODE_LABELS[0])
 
-ax.bar(x - 0.5 * BAR_WIDTH, mode1,
+ax.bar(x - 0.5 * BAR_WIDTH, mode2,
        width=BAR_WIDTH,
        color=COLORS[1],
        edgecolor="black",
