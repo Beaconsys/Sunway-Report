@@ -20,17 +20,16 @@ def process_cache(cache_df, out_path):
     final_res.to_csv(out_path)
 
 def process_single_ip(target_ip):
-    base_path = Path(__file__).parent / "lustre-client-1"  # 自动定位脚本所在目录
+    base_path = Path(__file__).parent / "lustre-client-1"  
     # print(base_path)
 
     for date_dir in base_path.glob("*/*/*"):
-        # 获取相对路径部分
         rel_parts = date_dir.relative_to(base_path).parts
 
         if len(rel_parts) != 3:
             continue
 
-        year, month, day = rel_parts  # 正确解包
+        year, month, day = rel_parts
 
         json_path = date_dir / f"{target_ip}.json"
         if not json_path.exists():
@@ -55,5 +54,5 @@ def process_single_ip(target_ip):
             print(f"Skipped empty dataframe for: {target_ip}")
 
 if __name__ == "__main__":
-    target_ip = "20.0.0.35"
+    target_ip = "x.x.x.x"
     process_single_ip(target_ip)
