@@ -21,7 +21,7 @@ TIME_INTERVALS = (
     ">=1000",
 )
 
-# Values transcribed from Figure 12. A height of 0.05 renders bars labeled <0.1.
+# # Values below 0.1 are represented as 0.05 for plotting and labeled <0.1.
 WAIT_TAIHU_VALUES = (60.7, 1.1, 37.2, 1.1, 0.05, 0.05, 0.05)
 WAIT_OCEAN_VALUES = (60.3, 22.6, 5.3, 8.3, 3.5, 0.05, 0.05)
 WAIT_TAIHU_LABELS = ("60.7", "1.1", "37.2", "1.1", "<0.1", "<0.1", "<0.1")
