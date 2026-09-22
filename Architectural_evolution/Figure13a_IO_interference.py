@@ -4,7 +4,7 @@ import numpy as np
 
 plt.rcParams['font.family'] = 'Arial'
 
-export_data = pd.read_csv("IO interference_data.csv")
+export_data = pd.read_csv("IO_interference_data.csv")
 
 categories = export_data['category'].tolist()
 normal_values = export_data['normal_ratio'].tolist()
