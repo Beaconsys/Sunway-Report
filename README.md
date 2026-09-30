@@ -150,7 +150,7 @@ This directory contains reproducible figures for "Architectural evolution and it
 
 - `Figure20_IO_bandwidth.py` reproduces Figure 20, comparing read/write bandwidth on TaihuLight, OceanLight GFS, and OceanLight HadaFS.
   
-  Data processing: We select jobs at a scale of 1024 processes and separates their read/write bandwidth by storage configuration (HadaFS or GFS). The figure's lower quartile, median, upper quartile, and lower/upper whisker values are embedded in MB/s for each group.
+  Data processing: We select jobs at a scale of 1024 processes and separate their read/write bandwidth by storage configuration (HadaFS or GFS). The figure's lower quartile, median, upper quartile, and lower/upper whisker values are embedded in MB/s for each group.
   
   Run: `python Figure20_IO_bandwidth.py`
 
