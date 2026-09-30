@@ -1,9 +1,9 @@
 # Storage Evolution for Exascale Supercomputers: Lessons from Sunway TaihuLight to OceanLight
 
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC--BY--NC--ND--4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC--4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-This artifact is licensed under the
-[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+This work is licensed under the
+[Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## 1 Getting Started Instructions
 
