@@ -5,6 +5,11 @@
 This work is licensed under the
 [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
+## Persistent Archive
+
+The version is archived on Zenodo:
+https://doi.org/10.5281/zenodo.23201065
+
 ## 1 Getting Started Instructions
 
 This study analyzes eight years of production data from the Sunway TaihuLight and OceanLight supercomputers, covering workload evolution, scheduler and metadata pressure, architectural trade-offs, and application-level I/O pitfalls. Our study systematically compares the effectiveness and limitations of architectural upgrades, providing actionable insights for designing and optimizing next-generation supercomputers facing converged HPC-AI workloads, and offering solutions for job scheduling, resource management, and I/O system design. This project showcases our data processing and analysis scripts, as well as the data collected by Beacon<sup>+</sup>, an open-source and lightweight collection tool.
